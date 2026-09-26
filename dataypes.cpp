@@ -1,11 +1,20 @@
-#include &lt;iostream&gt;
-using namespace std;
-int main() {
-int roll = 101;
-char grade = &#39;A&#39;;
-float fee = 12500.50;
-cout &lt;&lt; &quot;Roll No: &quot; &lt;&lt; roll &lt;&lt; endl;
-cout &lt;&lt; &quot;Grade: &quot; &lt;&lt; grade &lt;&lt; endl;
-cout &lt;&lt; &quot;Fee: &quot; &lt;&lt; fee &lt;&lt; endl;
-return 0;
+#include <iostream>              // Includes the input/output library
+
+using namespace std;             // Allows us to use cout and endl directly
+
+int main() {                     // Main function: program execution starts here
+
+    int roll = 101;              // Declares an integer variable and stores roll number
+
+    char grade = 'A';            // Declares a character variable and stores grade
+
+    float fee = 12500.50;        // Declares a float variable and stores fee
+
+    cout << "Roll No: " << roll << endl;   // Displays the roll number
+
+    cout << "Grade: " << grade << endl;    // Displays the grade
+
+    cout << "Fee: " << fee << endl;        // Displays the fee
+
+    return 0;                    // Ends the program successfully
 }
